@@ -29,8 +29,7 @@ public class App0 {
     System.out.println(name);
     System.out.printf("%.2f \n", transferAmount);
     System.out.printf("%.1f%n", transferAmount);
-
-    Locale.setDefault(Locale.US); // define format float with locale;
+    Locale.setDefault(Locale.US); // mat float with locale;
 
     System.out.printf("Result is %.2f %n", transferAmount);
     System.out.printf("Result is %.1f where name is %s", transferAmount, name);
